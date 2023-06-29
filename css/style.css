@@ -4,3 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.section_left img {
+    width: 200px;
+    float: left;
+    margin-right: 1rem;
+}
