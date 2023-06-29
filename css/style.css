@@ -10,13 +10,32 @@ body {
     color: white;
 }
 
+h2{
+    padding: 1.5rem;
+}
+
 .container{
     max-width: 1170px;
     margin: auto;
+}
+
+.section_left {
+    border: 1px solid yellow;
 }
 
 .section_left img {
     width: 200px;
     float: left;
     margin-right: 1rem;
+}
+
+.section_right img {
+    width: 200px;
+    float: right;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
